@@ -26,6 +26,8 @@ namespace Adam.Pawlak.Service1.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //testowy komentarz do przetestowania pull requestu
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
