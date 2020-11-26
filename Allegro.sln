@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service1", "Adam.Pawlak.Service1\Adam.Pawlak.Service1.csproj", "{195FDA80-8628-4651-8A9B-E76365302C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service1", "Adam.Pawlak.Service1\Adam.Pawlak.Service1.csproj", "{195FDA80-8628-4651-8A9B-E76365302C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service1.Tests", "Adam.Pawlak.Service1.Tests\Adam.Pawlak.Service1.Tests.csproj", "{0C552F69-7157-42DE-A052-FFB5026DCEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service1.Tests", "Adam.Pawlak.Service1.Tests\Adam.Pawlak.Service1.Tests.csproj", "{0C552F69-7157-42DE-A052-FFB5026DCEF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service2", "Adam.Pawlak.Service2\Adam.Pawlak.Service2.csproj", "{B30A7E46-E046-4810-A581-3F5DDEE8BA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service2", "Adam.Pawlak.Service2\Adam.Pawlak.Service2.csproj", "{B30A7E46-E046-4810-A581-3F5DDEE8BA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service3", "Adam.Pawlak.Service3\Adam.Pawlak.Service3.csproj", "{2DABDE84-2CDA-4A21-BE33-A1948500B31D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service3", "Adam.Pawlak.Service3\Adam.Pawlak.Service3.csproj", "{2DABDE84-2CDA-4A21-BE33-A1948500B31D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service2.Tests", "Adam.Pawlak.Service2.Tests\Adam.Pawlak.Service2.Tests.csproj", "{A4009AD4-5EB4-406E-BA27-8C28BA6DCCDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service2.Tests", "Adam.Pawlak.Service2.Tests\Adam.Pawlak.Service2.Tests.csproj", "{A4009AD4-5EB4-406E-BA27-8C28BA6DCCDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adam.Pawlak.Service3.Tests", "Adam.Pawlak.Service3.Tests\Adam.Pawlak.Service3.Tests.csproj", "{5308BADE-DAFD-43E6-84D5-864D04093D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adam.Pawlak.Service3.Tests", "Adam.Pawlak.Service3.Tests\Adam.Pawlak.Service3.Tests.csproj", "{5308BADE-DAFD-43E6-84D5-864D04093D83}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2EEFE664-59B4-4D19-877C-8DCF9040D97B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5308BADE-DAFD-43E6-84D5-864D04093D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5308BADE-DAFD-43E6-84D5-864D04093D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5308BADE-DAFD-43E6-84D5-864D04093D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEFE664-59B4-4D19-877C-8DCF9040D97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEFE664-59B4-4D19-877C-8DCF9040D97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEFE664-59B4-4D19-877C-8DCF9040D97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEFE664-59B4-4D19-877C-8DCF9040D97B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

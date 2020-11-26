@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  adam.pawlak.service1:
+    image: ${DOCKER_REGISTRY-}adampawlakservice1
+    build:
+      context: .
+      dockerfile: Adam.Pawlak.Service1\Dockerfile
+
+  adam.pawlak.service2:
+    image: ${DOCKER_REGISTRY-}adampawlakservice2
+    build:
+      context: .
+      dockerfile: Adam.Pawlak.Service2\Dockerfile
+
+  adam.pawlak.service3:
+    image: ${DOCKER_REGISTRY-}adampawlakservice3
+    build:
+      context: .
+      dockerfile: Adam.Pawlak.Service3\Dockerfile
